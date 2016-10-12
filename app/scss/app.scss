@@ -1,0 +1,25 @@
+@import 'variables';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $primary-font-family;
+    color: $primary-font-color;
+}
+
+header {
+    margin: 32px auto;
+    width: 90%;
+}
+
+h1 {
+    margin: .3em 0;
+}
+
+p {
+    line-height: 1.5em;
+}
